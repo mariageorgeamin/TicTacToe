@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="458.0" fitWidth="542.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@levels.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="low" layoutX="171.0" layoutY="92.0" mnemonicParsing="false" opacity="0.0" prefHeight="47.0" prefWidth="200.0" text="Button">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="medium" layoutX="171.0" layoutY="173.0" mnemonicParsing="false" opacity="0.0" prefHeight="47.0" prefWidth="200.0" text="Button">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="high" layoutX="171.0" layoutY="253.0" mnemonicParsing="false" opacity="0.0" prefHeight="47.0" prefWidth="200.0" text="Button">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="back" layoutX="171.0" layoutY="333.0" mnemonicParsing="false" opacity="0.0" prefHeight="47.0" prefWidth="200.0" text="Button">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</AnchorPane>
